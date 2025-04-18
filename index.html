@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomTech Gardens</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>BloomTech Gardens</h1>
+    </header>
+    <nav class="menu-lateral">
+        <div class="expansor">
+            <i class="bi bi-list"></i>
+        </div>
+        <ul>
+            <li class="item-menu">
+                <a href="#home">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt">Home</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#loja">
+                    <span class="icon"><i class="bi bi-shop-window"></i></span>
+                    <span class="txt">Loja</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href=#nossa-missao>
+                    <span class="icon"><i class="bi bi-tree"></i></span>
+                    <span class="txt">Nossa Missão</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#contato">
+                    <span class="icon"><i class="bi bi-person-circle"></i></span>
+                    <span class="txt">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Botão de abrir o painel -->
+<input type="checkbox" id="toggle-painel" class="toggle-painel">
+<label for="toggle-painel" class="botao-toggle">Trabalhe Conosco</label>
+
+<!-- Painel Trabalhe Conosco -->
+<div class="painel-trabalhe-conosco">
+  <form>
+    <label for="vaga">Vaga:</label>
+    <select id="vaga" name="vaga" required>
+      <option value="">Selecione uma vaga</option>
+      <option value="atendente">Atendente</option>
+      <option value="vendas">Vendas</option>
+      <option value="marketing">Marketing</option>
+      <option value="suporte">Suporte Técnico</option>
+    </select>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="curriculo">Anexar Currículo:</label>
+    <input type="file" id="curriculo" name="curriculo">
+
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+
+    <main>
+            <br id="home"> <!--Aqui fizemos uma maracutaia para que a pagina nao cortasse informações-->
+            <br>
+            <br>
+            <h2 class="Titulo">BloomTech Gardens</h2>
+            
+            <div class="Texto-1">
+                <p>
+                    A BloomTech Gardens é uma empresa inovadora dedicada a unir botânica e tecnologia para criar soluções
+                    para criar soluções inteligentes e sustentáveis. Nosso time de especialistas em ciências
+                    ambientais e engenharia de software desenvolve sistemas de monitoramento e
+                    automação para estufas, sensores de umidade e nutrientes conectados à nuvem, além de
+                    plataformas digitais que tornam o cultivo e a pesquisa de plantas mais ágeis e precisos.
+                    Com essa infraestrutura, atendemos tanto laboratórios e viveiros quanto pequenos
+                    produtores e entusiastas do verde.
+                </p> <br>
+
+                <p>
+                    Nossa proposta é transformar a forma como interagimos com o mundo vegetal,
+                    oferecendo ferramentas que reduzem o desperdício de água e fertilizantes, otimizam o
+                    crescimento das plantas e permitem previsões de condição climática em tempo real. Ao
+                    facilitar processos de manejo e coleta de dados, contribuímos para um meio ambiente
+                    mais saudável e para a preservação das áreas verdes, promovendo práticas ecológicas que
+                    beneficiam comunidades e ecossistemas.
+                </p> <br>
+
+                <p>
+                    Na BloomTech Gardens, desenvolvemos e fabricamos nossos próprios sprinklers utilizando
+                    tecnologias high-tech de última geração, garantindo máxima eficiência e durabilidade.
+                    Realizamos também toda a instalação dos sistemas de irrigação, atendendo desde
+                    grandes plantações até pequenos jardins residenciais, sempre com soluções
+                    personalizadas para cada tipo de espaço. Para contratar nossos serviços ou tirar dúvidas,
+                    entre em contato conosco pelo e-mail BloomTechGardens@gmail.com ou pelo telefone +55 (32) 99867-5487.
+                </p> <br>
+
+            </div>
+            
+            <div class="alinhamento">
+            <section class="card1">
+                <div class="cardd">
+                    <img class="sprinkler1" src="IMG/sistema-de-irrigacao-de-gramado.jpg" alt="sprinkler 1">
+                </div>
+                <div>
+                    <p>Um dos nossos Sprinklers high-tech com sensores para regar seus gramados!</p>
+                </div>
+            </section>    
+            <section class="card2">
+                 <div class="cardd">
+                    <img class="sprinkler2" src="IMG/360_F_33552553_TlQD8GwhxE4ckdKV3PMEQcloxORySLXl.jpg" alt="sprinkler 2">
+                </div>
+                <div>
+                    <p>Um dos nossos Super Sprinklers high-tech com sensores para regar suas plantações!</p>
+                </div>
+            </section>    
+            </div>
+            
+            <h2 class="Titulo" id="loja">Nossos Produtos</h2>
+            <div class="Texto-1">
+
+                <p>
+                    Nosso vaso de planta high-tech foi especialmente desenvolvido para transformar a maneira como você
+                    cuida das suas plantas, aliando o que há de mais moderno em tecnologia com a praticidade que o dia a dia exige.
+                    Ele é equipado com sensores inteligentes de umidade e temperatura que monitoram constantemente as condições do solo e do ambiente ao redor da planta.
+                    Quando o sistema identifica que a planta precisa de água, ele ativa automaticamente um mecanismo de irrigação,
+                    utilizando a água armazenada em seu reservatório interno, garantindo uma rega precisa e eficiente, sem desperdícios.
+                </p> <br>
+
+                <p>
+                    Além disso, o vaso conta com uma luz de LED integrada com espectro ajustável, que simula a luz solar natural, essencial para o processo de fotossíntese,
+                    permitindo que as plantas cresçam fortes e saudáveis mesmo em ambientes com pouca ou nenhuma luz natural,
+                    como escritórios ou apartamentos. Seu design moderno e funcional também inclui indicadores visuais para alertas de manutenção,
+                    como a necessidade de reabastecer o reservatório ou limpar os sensores.
+                </p> <br>
+
+                <p>
+                    Ideal para quem deseja manter suas plantas sempre bem cuidadas, mesmo com uma rotina agitada, o vaso high-tech é perfeito tanto para
+                    iniciantes quanto para apaixonados por jardinagem que buscam conveniência sem abrir mão da saúde das suas plantas.
+                    Com ele, você garante um cuidado inteligente, automatizado e eficaz, com o mínimo de esforço e o máximo de resultado.
+                </p> <br>
+
+            </div>
+            <div class="Loja">
+                <section class="Card">
+                    <img class="produto-img" src="IMG/vazo-1.jpg" alt="Produto_1">
+                    <div>
+                        <p>Vaso de Planta TechnoGreen Black</p>
+                        <div class="preco">
+                            <p>R$ 250,00</p>
+                        </div>
+                    </div>
+                   
+                    <div class="buy">
+                        <button>Comprar</button>
+                        <button>Carrinho</button>
+                    </div>
+                </section>
+                <section class="Card">
+                    <img class="produto-img" src="IMG/vazo-2.jpg" alt="Produto_2">
+                    <div>
+                        <p>Vaso de Planta TechnoGreen White</p>
+                        <div class="preco">
+                            <p>R$ 250,00</p>
+                        </div>
+                    </div>
+                    <div class="buy">
+                        <button>Comprar</button>
+                        <button>Carrinho</button>
+                    </div>
+                </section>
+            </div>
+    <section id="nossa-missao">
+        <div class="container">
+         <h2>Nossa Missão 🌱</h2>
+        <p>Na <strong>BloomTech Gardens</strong>, unimos o poder da tecnologia à paixão pela natureza.
+        Nossa missão é transformar espaços verdes com soluções inteligentes de irrigação e produtos
+        de jardinagem sustentáveis, garantindo eficiência, economia de recursos e respeito ao meio ambiente.
+        <br><br>
+        Acreditamos na inovação como ferramenta para criar jardins mais vivos, conectados e conscientes.
+        Valorizamos a transparência, o compromisso com nossos clientes e o cuidado com cada detalhe
+        da instalação ao florescer.
+         </p>
+        </div>
+           
+    </main><!--CONTEUDO PRINCIPAL-->
+    <footer class="footer" id="contato">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Sobre o Criador</h3>
+                <p> <strong>Uma das maiores empresas de botanica high-tech do pais!</strong></p>
+            </div>
+             <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>Email: BloomTechGardens@gmail.com<a href="BloomTechGardens@gmail.com"></a></p>
+                <p>Telefone: +55 (32)99867-5487<a href="tel:+5532998675487"></a></p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Redes Sociais</h3>
+                <a href="https://www.instagram.com" target="_blank"><span class="icon"><i class="bi bi-instagram"></i></span></a> 
+                <a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i></a> 
+                <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+        
+        <p class="footer-copy">&copy; 2025 BloomTech Gardens. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
